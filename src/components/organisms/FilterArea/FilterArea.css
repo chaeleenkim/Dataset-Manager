@@ -1,0 +1,23 @@
+.FilterArea {
+  /* position: absolute; */
+  margin-left: 260px;
+  /* margin-top: 124px; */
+  margin-bottom: 24px;
+}
+
+.FilterArea .FilterArea-searchArea {
+  background-color: lightgray;
+  width: 800px;
+  height: 50px;
+}
+
+.FilterArea-div {
+  float: left;
+  width: 250px;
+}
+
+.FilterArea-buttonArea {
+  float: left;
+  margin-left: 200px;
+  margin-top: 22px;
+}
