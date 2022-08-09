@@ -1,24 +1,22 @@
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import "./UpperPageArea.css";
-import RefreshIcon from "@mui/icons-material/Refresh";
+import RefreshButton from "components/atoms/RefreshButton/RefreshButton";
 
 function UpperPageArea() {
   return (
     <div className="UpperPageArea">
       <div>
-        <span>Layout 분석</span>
-        <Button className="UpperPageArea-refreshButton">
-          <RefreshIcon className="tmp" />
-        </Button>
+        <Typography className="UpperPageArea-pageName">Layout 분석</Typography>
+        <RefreshButton className="UpperPageArea-refreshButton" />
         <Button>
-          <p>분석</p>
+          <Typography>분석</Typography>
         </Button>
       </div>
       <div>
-        <span>
+        <Typography className="UpperPageArea-description">
           T-Up에서 분석된 OOO 자산을 동기화하고, 마이그레이션하기 위한 테이블
           Layout을 분석하는 메뉴입니다.
-        </span>
+        </Typography>
       </div>
     </div>
   );

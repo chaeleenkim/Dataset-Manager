@@ -1,7 +1,5 @@
 .FilterArea {
-  /* position: absolute; */
   margin-left: 260px;
-  /* margin-top: 124px; */
   margin-bottom: 24px;
 }
 
@@ -20,4 +18,32 @@
   float: left;
   margin-left: 200px;
   margin-top: 22px;
+}
+
+/* texts */
+.FilterArea-resultText {
+  width: 423px;
+  height: 20px;
+  margin: 48px 1237px 24px 20px;
+  opacity: 0.8;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+
+.FilterArea-div .FilterArea-searchArea-filterText {
+  width: 152px;
+  height: 20px;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: 0.05px;
+  color: rgba(0, 0, 0, 0.87);
 }

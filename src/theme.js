@@ -6,9 +6,8 @@ export const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          // width: "71px",
+          width: "71px",
           height: "32px",
-          margin: "4px 0 24px",
           padding: "8px 12px",
           backgroundColor: "#48b3cf",
           fontFamily: "NotoSansCJKkr",
@@ -23,10 +22,16 @@ export const theme = createTheme({
           "&:hover": {
             width: "71px",
             height: "32px",
-            margin: "4px 0 24px",
             padding: "8px 12px",
             backgroundColor: "#48b3cf",
           },
+        },
+      },
+    },
+    MuiTypography: {
+      styleOverrides: {
+        root: {
+          fontFamily: "NotoSansCJKkr",
         },
       },
     },

@@ -5,11 +5,32 @@
   margin-bottom: 24px;
 }
 
-.UpperPageArea .UpperPageArea-refreshButton {
-  background-color: tomato;
-  width: 20px;
+.Layout-areas .UpperPageArea-pageName {
+  width: 219.8px;
+  height: 27px;
+  /* padding: 4px 36.8px 3px 163px; */
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222;
+  vertical-align: middle;
+  display: inline;
 }
 
-.UpperPageArea .UpperPageArea-refreshButton .tmp {
-  width: 9px;
+.UpperPageArea-description {
+  /* width: 423px; */
+  height: 20px;
+  /* margin: 48px 1237px 24px 20px; */
+  opacity: 0.8;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
 }
