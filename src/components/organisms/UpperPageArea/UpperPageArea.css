@@ -4,3 +4,12 @@
   margin-top: 24px;
   margin-bottom: 24px;
 }
+
+.UpperPageArea .UpperPageArea-refreshButton {
+  background-color: tomato;
+  width: 20px;
+}
+
+.UpperPageArea .UpperPageArea-refreshButton .tmp {
+  width: 9px;
+}

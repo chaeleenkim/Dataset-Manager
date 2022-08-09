@@ -6,7 +6,7 @@ export const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          width: "71px",
+          // width: "71px",
           height: "32px",
           margin: "4px 0 24px",
           padding: "8px 12px",
@@ -31,5 +31,4 @@ export const theme = createTheme({
       },
     },
   },
-  // Table Theme
 });

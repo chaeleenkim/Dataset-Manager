@@ -7,7 +7,9 @@ function UpperPageArea() {
     <div className="UpperPageArea">
       <div>
         <span>Layout 분석</span>
-        <Button>{RefreshIcon}</Button>
+        <Button className="UpperPageArea-refreshButton">
+          <RefreshIcon className="tmp" />
+        </Button>
         <Button>
           <p>분석</p>
         </Button>
