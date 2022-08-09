@@ -1,11 +1,11 @@
 import "./CommonButton.css";
+import Button from "@mui/material/Button";
 
 function CommonButton({ name }) {
   return (
-    <span className="CommonButton">
-      <span>test</span>
-      <button>{name}</button>
-    </span>
+    <Button variant="contained">
+      <p>{name}</p>
+    </Button>
   );
 }
 

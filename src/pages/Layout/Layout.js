@@ -11,16 +11,16 @@ function Layout() {
     <div className="Layout">
       <Gnb />
       <Lnb />
-      <div className="tmp">
+      <div className="Layout-areas">
         <UpperPageArea />
         <FilterArea />
         <TableArea />
-        <CommonButton name={"재분석"} />
+        <span className="Layout-areas-button">
+          <CommonButton name={"재분석"} />
+        </span>
       </div>
     </div>
   );
 }
-
-const buttonStyles = {};
 
 export default Layout;

@@ -1,4 +1,8 @@
-.tmp {
+.Layout-areas {
   display: flex;
   flex-direction: column;
+}
+
+.Layout-areas-button {
+  align-items: flex-end;
 }

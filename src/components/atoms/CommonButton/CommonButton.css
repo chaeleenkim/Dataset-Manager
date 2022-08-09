@@ -1,8 +1,2 @@
-.CommonButton {
-  /* position: absolute; */
-  /* margin-top: 800px; */
-  /* margin-left: 800px; */
-  /* background-color: tomato; */
-  display: flex;
-  justify-content: flex-end;
+.CommonButton > p:hover {
 }
