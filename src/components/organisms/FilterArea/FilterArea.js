@@ -9,12 +9,15 @@ function FilterArea() {
       <Typography className="FilterArea-resultText">
         Layout 분석 결과
       </Typography>
-      <FilterTab name="전체" num={0}></FilterTab>
-      <FilterTab name="성공 Layout" num={0}></FilterTab>
-      <FilterTab name="실패 Layout" num={0}></FilterTab>
+
+      <div className="FilterArea-filterTabs">
+        <FilterTab name="전체" num={0}></FilterTab>
+        <FilterTab name="성공 Layout" num={0}></FilterTab>
+        <FilterTab name="실패 Layout" num={0}></FilterTab>
+      </div>
 
       <div className="FilterArea-searchArea">
-        <div className="FilterArea-div">
+        <div className="FilterArea-searchArea-item">
           <Typography className="FilterArea-searchArea-filterText">
             PROGRAM NAME
           </Typography>
@@ -23,7 +26,7 @@ function FilterArea() {
           </div>
         </div>
 
-        <div className="FilterArea-div">
+        <div className="FilterArea-searchArea-item">
           <Typography className="FilterArea-searchArea-filterText">
             FD
           </Typography>
@@ -31,11 +34,14 @@ function FilterArea() {
             <input className="FilterArea-searchArea-input" />
           </div>
         </div>
-        <div className="FilterArea-buttonArea">
-          <Typography className="FilterArea-buttonArea-initText">
+
+        <div className="FilterArea-searchArea-buttonArea">
+          <Button className="FilterArea-searchArea-buttonArea-Buttons">
             초기화
-          </Typography>
-          <Button className="FilterArea-buttonArea-searchButton">검색</Button>
+          </Button>
+          <Button className="FilterArea-searchArea-buttonArea-Buttons">
+            검색
+          </Button>
         </div>
       </div>
     </div>

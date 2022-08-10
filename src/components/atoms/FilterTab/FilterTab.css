@@ -1,7 +1,39 @@
-.FilterTab {
+.FilterTab-mask {
   width: 130px;
   height: 30px;
   padding: 6px 10px 8px;
-  opacity: 0.24;
-  background-color: #fff;
+  opacity: 0.15;
+  border-radius: 15px;
+  border: solid 1px #3c8da2;
 }
+
+.FilterTab-button {
+  width: 110px;
+  height: 16px;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.65px;
+  text-align: center;
+  color: #0896b4;
+  background-color: transparent;
+}
+
+/* 
+.FilterTab-mask:active {
+  width: 71px;
+  height: 32px;
+  opacity: 0.32;
+  background-color: tomato;
+}
+
+.FilterTab-mask:hover {
+  width: 71px;
+  height: 32px;
+  padding: 4px 10px 3px;
+  opacity: 0.08;
+  background-color: tomato;
+} */

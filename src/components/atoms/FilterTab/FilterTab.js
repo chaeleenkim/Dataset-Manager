@@ -1,12 +1,15 @@
 import "./FilterTab.css";
 import Button from "@mui/material/Button";
+import { Typography } from "@mui/material";
 
 function FilterTab({ name, num }) {
   return (
-    <Button className="FilterTab">
-      {name}
-      {num}
-    </Button>
+    <div className="FilterTab-mask">
+      <Button className="FilterTab-button">
+        {name}
+        {num}
+      </Button>
+    </div>
   );
 }
 

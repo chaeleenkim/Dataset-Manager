@@ -3,6 +3,14 @@
   margin-bottom: 24px;
 }
 
+/* filter tab */
+.FilterArea-filterTabs {
+  display: flex;
+  flex-direction: row;
+}
+
+/* search area */
+
 .FilterArea .FilterArea-searchArea {
   background-color: lightgray;
   width: 90vw;
@@ -23,19 +31,22 @@
   background-color: #fff;
 }
 
-.FilterArea-div {
+.FilterArea-searchArea-item {
   margin-right: 50px;
 }
 
-.FilterArea-buttonArea {
+.FilterArea-searchArea-buttonArea {
   display: flex;
-  flex-direction: column;
+  align-items: center;
 }
 
-.FilterArea .FilterArea-buttonArea .FilterArea-buttonArea-searchButton {
+.FilterArea
+  .FilterArea-searchArea-buttonArea
+  .FilterArea-searchArea-buttonArea-Buttons {
   width: 71px;
   height: 32px;
   padding: 8px 12px;
+  margin-right: 10px;
   background-color: #fff;
   font-size: 13px;
   font-weight: 500;
@@ -62,7 +73,7 @@
   color: #000;
 }
 
-.FilterArea-div .FilterArea-searchArea-filterText {
+.FilterArea-searchArea-item .FilterArea-searchArea-filterText {
   width: 152px;
   height: 20px;
   font-size: 13px;
@@ -72,19 +83,4 @@
   line-height: 1.54;
   letter-spacing: 0.05px;
   color: rgba(0, 0, 0, 0.87);
-}
-
-.FilterArea .FilterArea-buttonArea .FilterArea-buttonArea-initText {
-  cursor: pointer;
-  display: inline-block;
-  width: 40px;
-  height: 18px;
-  text-align: right;
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #00a4c3;
 }
