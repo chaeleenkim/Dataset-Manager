@@ -1,3 +1,9 @@
+.Filtertab-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .FilterTab-mask {
   width: 130px;
   height: 30px;
@@ -7,11 +13,11 @@
   border: solid 1px #3c8da2;
 }
 
-.FilterTab-button {
+.FilterTab-mask .FilterTab-button {
   width: 110px;
   height: 16px;
   font-family: NotoSansCJKkr;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -19,7 +25,6 @@
   letter-spacing: 0.65px;
   text-align: center;
   color: #0896b4;
-  background-color: transparent;
 }
 
 /* 

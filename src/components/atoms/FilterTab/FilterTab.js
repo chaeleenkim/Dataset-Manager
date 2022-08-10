@@ -4,11 +4,13 @@ import { Typography } from "@mui/material";
 
 function FilterTab({ name, num }) {
   return (
-    <div className="FilterTab-mask">
-      <Button className="FilterTab-button">
-        {name}
-        {num}
-      </Button>
+    <div className="Filtertab-items">
+      <div className="FilterTab-mask">
+        <Button className="FilterTab-button">
+          {name}
+          {num}
+        </Button>
+      </div>
     </div>
   );
 }
