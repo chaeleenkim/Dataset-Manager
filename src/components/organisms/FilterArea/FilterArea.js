@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
-import FilterButton from "components/atoms/FilterButton/FilterButton";
+import FilterTab from "components/atoms/FilterTab/FilterTab";
+import Button from "@mui/material/Button";
 import "./FilterArea.css";
 
 function FilterArea() {
@@ -8,9 +9,9 @@ function FilterArea() {
       <Typography className="FilterArea-resultText">
         Layout 분석 결과
       </Typography>
-      <FilterButton name="전체" num={0}></FilterButton>
-      <FilterButton name="성공 Layout" num={0}></FilterButton>
-      <FilterButton name="실패 Layout" num={0}></FilterButton>
+      <FilterTab name="전체" num={0}></FilterTab>
+      <FilterTab name="성공 Layout" num={0}></FilterTab>
+      <FilterTab name="실패 Layout" num={0}></FilterTab>
 
       <div className="FilterArea-searchArea">
         <div className="FilterArea-div">
@@ -18,7 +19,7 @@ function FilterArea() {
             PROGRAM NAME
           </Typography>
           <div>
-            <input />
+            <input className="FilterArea-searchArea-input" />
           </div>
         </div>
 
@@ -27,12 +28,14 @@ function FilterArea() {
             FD
           </Typography>
           <div>
-            <input />
+            <input className="FilterArea-searchArea-input" />
           </div>
         </div>
         <div className="FilterArea-buttonArea">
-          <button>초기화</button>
-          <button>검색</button>
+          <Typography className="FilterArea-buttonArea-initText">
+            초기화
+          </Typography>
+          <Button className="FilterArea-buttonArea-searchButton">검색</Button>
         </div>
       </div>
     </div>

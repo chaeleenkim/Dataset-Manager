@@ -8,7 +8,6 @@ export const theme = createTheme({
         root: {
           width: "71px",
           height: "32px",
-          padding: "8px 12px",
           backgroundColor: "#48b3cf",
           fontFamily: "NotoSansCJKkr",
           fontSize: "13px",
@@ -19,10 +18,8 @@ export const theme = createTheme({
           letterSpacing: "0.6px",
           textAlign: "center",
           color: "#fff",
+          padding: "8px 12px",
           "&:hover": {
-            width: "71px",
-            height: "32px",
-            padding: "8px 12px",
             backgroundColor: "#48b3cf",
           },
         },

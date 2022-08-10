@@ -3,8 +3,8 @@ import Lnb from "components/molecules/Lnb/Lnb";
 import UpperPageArea from "components/organisms/UpperPageArea/UpperPageArea";
 import FilterArea from "components/organisms/FilterArea/FilterArea";
 import TableArea from "components/organisms/TableArea/TableArea";
-import CommonButton from "components/atoms/CommonButton/CommonButton";
 import "./Layout.css";
+import Button from "@mui/material/Button";
 
 function Layout() {
   return (
@@ -16,7 +16,7 @@ function Layout() {
         <FilterArea />
         <TableArea />
         <span className="Layout-areas-button">
-          <CommonButton name={"재분석"} />
+          <Button>재분석</Button>
         </span>
       </div>
     </div>

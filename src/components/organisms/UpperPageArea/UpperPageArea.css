@@ -20,12 +20,10 @@
   display: inline;
 }
 
-.UpperPageArea-description {
-  /* width: 423px; */
+.UpperPageArea .UpperPageArea-description {
+  margin: 20px 0;
   height: 20px;
-  /* margin: 48px 1237px 24px 20px; */
   opacity: 0.8;
-  font-family: NotoSansCJKkr;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;

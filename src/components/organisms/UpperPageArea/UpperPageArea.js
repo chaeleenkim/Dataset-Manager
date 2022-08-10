@@ -8,9 +8,7 @@ function UpperPageArea() {
       <div>
         <Typography className="UpperPageArea-pageName">Layout 분석</Typography>
         <RefreshButton className="UpperPageArea-refreshButton" />
-        <Button>
-          <Typography>분석</Typography>
-        </Button>
+        <Button>분석</Button>
       </div>
       <div>
         <Typography className="UpperPageArea-description">

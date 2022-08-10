@@ -5,19 +5,46 @@
 
 .FilterArea .FilterArea-searchArea {
   background-color: lightgray;
-  width: 800px;
-  height: 50px;
+  width: 90vw;
+  height: 92px;
+  margin: 24px 0 16px;
+  padding: 20px 20px 20px;
+  background-color: #f2f4f8;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.FilterArea-searchArea-input {
+  width: 150px;
+  height: 32px;
+  border-radius: 4px;
+  border: solid 1px rgba(25, 25, 25, 0.3);
+  background-color: #fff;
 }
 
 .FilterArea-div {
-  float: left;
-  width: 250px;
+  margin-right: 50px;
 }
 
 .FilterArea-buttonArea {
-  float: left;
-  margin-left: 200px;
-  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FilterArea .FilterArea-buttonArea .FilterArea-buttonArea-searchButton {
+  width: 71px;
+  height: 32px;
+  padding: 8px 12px;
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /* texts */
@@ -38,7 +65,6 @@
 .FilterArea-div .FilterArea-searchArea-filterText {
   width: 152px;
   height: 20px;
-  font-family: NotoSansCJKkr;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -46,4 +72,19 @@
   line-height: 1.54;
   letter-spacing: 0.05px;
   color: rgba(0, 0, 0, 0.87);
+}
+
+.FilterArea .FilterArea-buttonArea .FilterArea-buttonArea-initText {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 18px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #00a4c3;
 }
